@@ -216,6 +216,7 @@ a {
 
     .play_info span {
         font-size: 12px;
+        margin-top: 5px;
     }
 
     .play_info span i {
@@ -265,5 +266,42 @@ a {
 
     .tiktok_color {
         font-size: 20px;
+    }
+
+
+
+    .play_area {
+        padding: 0px 40px;
+        justify-content: space-between;
+    }
+    
+    .play_area {
+        flex-direction: column-reverse;
+        height: auto !important;
+        align-items: center;
+    }
+
+    .bg_setup {
+        height: auto;
+    }
+
+    .play_content {
+        padding: 100px;
+        margin: 0px auto;
+    }
+
+    .play_image_area {
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .play_image_area img {
+        width: 100%;
+    }
+    
+    .play_image_area {
+        padding-right: 20px;
+        width: 100%;
+        margin: 0px auto;
     }
 }
