@@ -102,7 +102,22 @@ a {
 
 
 @media screen and (max-width: 576px) {
-    
+    .header_area, .nav_area, .ul_area {
+        flex-direction: column;
+    }
+
+    .header_area {
+        padding: 30px 40px;
+    }
+
+    .ul_area {
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .ul_area li {
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 576.01px) and (max-width: 992px) {
