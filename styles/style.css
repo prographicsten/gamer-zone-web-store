@@ -184,6 +184,56 @@ a {
     background: #4EC5F7;
 }
 
+/* online game area styles start */
+.online_game {
+    padding: 80px 240px;
+}
+
+.game_title_info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.game_img img {
+    width: 100%;
+}
+
+.game_title_info h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game_title_info p {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.game_description p {
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 5px;
+}
 
 
 
