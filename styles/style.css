@@ -284,6 +284,50 @@ a {
     margin-top: 20px;
 }
 
+/* game company or game kind area start */
+.game_type_area {
+    padding: 50px 240px;
+}
+
+.game_types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.game_type_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    transition: .4s;
+}
+
+.game_type_box:hover {
+    padding: 5px 10px;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+
+
+.game_type_box img {
+    width: 40px;
+    height: 40px;
+}
+
+.game_type_box p {
+    font-size: 11px;
+    transition: .4s;
+}
+
+.game_type_box:hover p {
+    color: #ff42a5;
+}
 
 
 
@@ -439,6 +483,17 @@ a {
         line-height: 25px;
         margin-top: 15px;
     }
+
+
+    .game_type_area {
+        padding: 50px 15px;
+    }
+
+    .game_types {
+        justify-content: flex-start;
+    }
+
+
 }
 
 @media screen and (min-width: 576.01px) and (max-width: 992px) {
@@ -557,5 +612,14 @@ a {
         width: 150px;
         margin-top: -120px;
         margin-left: 60%;
+    }
+
+
+    .game_type_area {
+        padding: 50px 40px;
+    }
+
+    .game_types {
+        justify-content: flex-start;
     }
 }
