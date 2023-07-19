@@ -2,3 +2,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* custom css styles start */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Work Sans;
+}
+
+:root {
+    --pink_color: #FF42A5;
+    --youtube_color: #F61C0D;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.header_area {
+    display: flex;
+    padding: 30px 240px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo_area img {
+    width: 85px;
+    height: 40px;
+}
+
+.logo_area h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo_area h2 .pink_color{
+    color: var(--pink_color);
+}
+
+.ul_area {
+    display: flex;
+    align-items: center;
+}
+
+.ul_area li {
+    margin-right: 35px;
+}
+
+.ul_area li a, .same_style {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sub_li_area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_area .ul_area li:nth-child(3) {
+    margin-right: 0px;
+}
+
+.tiktok_color {
+    font-size: 25px;
+}
+
+.youtube_color {
+    color: var(--youtube_color);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (min-width: 576.01px) and (max-width: 992px) {
+    
+}
