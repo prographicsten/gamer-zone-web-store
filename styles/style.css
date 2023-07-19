@@ -162,6 +162,28 @@ a {
     font-size: 15px;
 }
 
+/* btn styles */
+.btn_area {
+    margin-top: 30px;
+}
+.btn {
+    padding: 21px 40px;
+    align-items: center;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn2 {
+    background: #4EC5F7;
+}
+
 
 
 
@@ -195,7 +217,7 @@ a {
 
 
     .play_area {
-        padding: 60px 15px;
+        padding: 100px 15px;
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -228,6 +250,16 @@ a {
         width: 100%;
         padding-right: 10px;
         margin-bottom: 50px;
+    }
+
+    .btn_area {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 15px 25px;
+        font-size: 13px;
     }
 }
 
@@ -303,5 +335,10 @@ a {
         padding-right: 20px;
         width: 100%;
         margin: 0px auto;
+    }
+
+    .btn {
+        padding: 18px 40px;
+        font-size: 15px;
     }
 }
