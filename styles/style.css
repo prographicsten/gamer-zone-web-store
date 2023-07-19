@@ -107,7 +107,7 @@ a {
     }
 
     .header_area {
-        padding: 30px 40px;
+        padding: 30px 15px;
     }
 
     .ul_area {
@@ -121,5 +121,39 @@ a {
 }
 
 @media screen and (min-width: 576.01px) and (max-width: 992px) {
-    
+
+    .header_area {
+        padding: 30px 40px;
+    }
+
+    .logo_area img {
+        width: 50px;
+        height: 35px;
+    }
+
+    .logo_area h2 {
+        font-size: 38px;
+    }
+
+    .ul_area {
+        gap: 30px;
+        margin-top: 0px;
+    }
+
+    .ul_area li {
+        margin-right: 0px;
+    }
+
+    .ul_area li a, .same_style {
+        font-size: 15px;
+    }
+
+    .youtube_color {
+        color: var(--youtube_color);
+        font-size: 25px;
+    }
+
+    .tiktok_color {
+        font-size: 20px;
+    }
 }
