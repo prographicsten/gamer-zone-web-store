@@ -588,7 +588,7 @@ a {
         justify-items: flex-start;
     }
 
-    .footer_area {
+    .footer_areas {
         padding: 40px 15px;
     }
 
@@ -746,7 +746,10 @@ a {
     }
 
     .game_types {
+        display: grid;
         justify-content: flex-start;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: flex-start;
     }
 
     .footer_logo img {
