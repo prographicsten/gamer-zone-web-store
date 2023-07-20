@@ -105,7 +105,7 @@ a {
     justify-content: space-between;
     height: 500px;
     align-items: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .bg_setup {
@@ -176,7 +176,7 @@ a {
 /* btn styles */
 .btn_area {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-top: 30px;
 }
 
@@ -690,8 +690,7 @@ h3.changeable_heading span {
     }
 
     .play_content {
-        padding-left: 20px;
-        align-items: center;
+        padding-left: 0px;
         margin: 0px auto;
     }
 
@@ -1003,7 +1002,7 @@ h3.changeable_heading span {
     }
 
     .play_content {
-        padding: 100px;
+        padding: 50px 10px;
         margin: 0px auto;
     }
 
@@ -1024,7 +1023,7 @@ h3.changeable_heading span {
 
     .btn {
         padding: 18px 40px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
 
