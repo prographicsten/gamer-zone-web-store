@@ -328,7 +328,16 @@ h4.intro_title {
 }
 
 /* play online game area start */
-.play_game_area {
+.play_instantly {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.play_instantly img {
+    width: 100%;
+}
+
+.play_game_area  {
     padding: 0px 240px 40px 240px;
     display: flex;
     align-items: center;
@@ -348,11 +357,22 @@ h4.intro_title {
     margin-left: 80%;
 }
 
+.play_instantly img.cat_img {
+    width: 40%;
+    position: relative;
+    margin-top: -160px;
+    margin-left: -20%;
+}
+
 .play_game_online_content h2 {
     width: 426px;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+}
+
+.play_instantly .play_game_online_content h2 {
+    width: 100%;
 }
 
 .play_game_online_content p {
@@ -362,6 +382,10 @@ h4.intro_title {
     font-weight: 400;
     line-height: 30px;
     margin-top: 20px;
+}
+
+.play_instantly .play_game_online_content {
+    text-align: end;
 }
 
 /* game company or game kind area start */
