@@ -464,7 +464,7 @@ h4.intro_title {
 }
 
 .nav_item li.footer_info:hover > a {
-    color: #FF42A5;
+    color: rgba(255, 255, 255, 0.60);
 }
 
 .social_item {
@@ -492,6 +492,11 @@ h4.intro_title {
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
+    transition: .3s;
+}
+
+.footer_condition span:hover a {
+    color: #fff;
 }
 
 .copyright_area {
