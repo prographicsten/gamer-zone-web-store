@@ -66,6 +66,15 @@ a {
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
+    transition: .3s;
+}
+
+.ul_area li:hover > a {
+    color: red;
+}
+
+.ul_area li.sub_li_area span.same_style:hover > a {
+    color: red;
 }
 
 .sub_li_area {
@@ -214,8 +223,77 @@ a {
     justify-content: space-between;
 }
 
+
+
+
+
+
+
+
+.game_img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+
+.img_intro {
+    position: absolute;
+    top: 0px;
+    left: -0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #000;
+    opacity: .8;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+}
+
+a.intro_play {
+    font-size: 50px;
+    color: red;
+    line-height: 0px;
+}
+
+h4.intro_title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .game_img img {
     width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.game_img:hover img {
+    transform: scale(1.1);
+}
+
+.game_img:hover .img_intro {
+    visibility: visible;
 }
 
 .game_title_info h2 {
@@ -590,7 +668,11 @@ a {
     }
 
     .footer_areas {
-        padding: 40px 0px;
+        padding: 0px 0px;
+    }
+
+    .footer_area {
+        padding: 50px 0px;
     }
 
     .nav_item {
@@ -600,7 +682,7 @@ a {
     }
 
     .nav_item li {
-        margin: 0px 5px;
+        margin: 0px 0px;
     }
 
     .nav_item li a {
@@ -618,7 +700,7 @@ a {
     }
 
     .copyright_area p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 }
@@ -647,7 +729,11 @@ a {
         margin-right: 0px;
     }
 
-    .ul_area li a, .same_style {
+    .ul_area li a {
+        font-size: 15px;
+    }
+
+    .same_style {
         font-size: 15px;
     }
 
@@ -742,6 +828,7 @@ a {
     }
 
 
+
     .game_type_area {
         padding: 50px 40px;
     }
@@ -751,6 +838,10 @@ a {
         justify-content: flex-start;
         grid-template-columns: repeat(3, 1fr);
         justify-items: flex-start;
+    }
+
+    .footer_area {
+        padding: 50px 40px;
     }
 
     .footer_logo img {
