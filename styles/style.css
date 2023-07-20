@@ -460,6 +460,11 @@ h4.intro_title {
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
+    transition: .3s;
+}
+
+.nav_item li.footer_info:hover > a {
+    color: #FF42A5;
 }
 
 .social_item {
