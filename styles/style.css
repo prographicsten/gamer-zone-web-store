@@ -101,11 +101,11 @@ a {
 
 /* play area styles start */
 .play_area {
-    /* padding: 0px 240px; */
     display: flex;
     justify-content: space-between;
     height: 500px;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .bg_setup {
@@ -130,7 +130,8 @@ a {
 }
 
 .play_image_area img {
-    width: 100%;
+    width: 535px;
+    float: right;
 }
 
 .play_title {
@@ -373,7 +374,7 @@ h4.intro_title {
 
 /* game company or game kind area start */
 .game_type_area {
-    padding: 50px 240px;
+    padding: 80px 240px 50px 240px;
 }
 
 .game_types {
@@ -576,6 +577,63 @@ h3.changeable_heading span {
     color: #534C64;
 }
 
+/* career area styles start */
+.careers_area {
+    padding: 0px 0px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.career_control_class {
+    padding: 0px 0px 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career_content {
+    width: 680px;
+    height: 100%;
+}
+
+.career_content h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.career_content p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.career_image_area img {
+    width: 100%;
+    float: right;
+}
+
+.careers_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.career_info_box_1 li {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.career_info_box_2 li {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 10px;
+}
 
 
 
@@ -658,7 +716,6 @@ h3.changeable_heading span {
     .play_image_area {
         width: 100%;
         padding-right: 10px;
-        margin-bottom: 50px;
     }
 
     .btn_area {
@@ -667,8 +724,8 @@ h3.changeable_heading span {
     }
 
     .btn {
-        padding: 15px 25px;
-        font-size: 13px;
+        padding: 10px 25px;
+        font-size: 12px;
     }
 
 
@@ -830,6 +887,62 @@ h3.changeable_heading span {
         line-height: 25px;
     }
 
+
+    .career_control_class {
+        padding: 30px 15px;
+        flex-direction: column;
+    }
+
+    .career_content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .career_content h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    .career_content p {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+
+    .career_info_box_1 li {
+        font-size: 10px;
+    }
+
+    .career_info_box_2 li {
+        font-size: 10px;
+    }
+
+    .career_image_area img {
+        width: 100%;
+        float: right;
+        margin-top: 30px;
+    }
+
+    .game_type_box img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .game_type_box p {
+        font-size: 10px;
+    }
+
+    .game_types {
+        gap: 10px;
+    }
+
+    .game_type_box {
+        gap: 10px;
+    }
+
+    .game_type_area {
+        padding: 60px 15px 50px 15px;
+    }
+
 }
 
 @media screen and (min-width: 576.01px) and (max-width: 992px) {
@@ -966,7 +1079,7 @@ h3.changeable_heading span {
 
 
     .game_type_area {
-        padding: 50px 40px;
+        padding: 80px 40px 50px 40px;
     }
 
     .game_types {
@@ -1026,5 +1139,32 @@ h3.changeable_heading span {
 
     h3.changeable_heading span {
         font-size: 12px;
+    }
+
+
+    .career_control_class {
+        padding: 0px 0px 0px 40px;
+    }
+    
+    .career_content {
+        width: 100%;
+    }
+
+    .career_content h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .career_content p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .career_info_box_1 li {
+        font-size: 10px;
+    }
+
+    .career_info_box_2 li {
+        font-size: 10px;
     }
 }
