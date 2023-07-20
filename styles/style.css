@@ -673,7 +673,7 @@ h4.intro_title {
     .play_game_img img.cat_img {
         width: 160px;
         margin-top: -110px;
-        margin-left: 180px;
+        margin-left: 170px;
     }
 
     .play_instantly img.cat_img {
@@ -792,15 +792,14 @@ h4.intro_title {
 
 
 
-    .play_area {
-        padding: 0px 40px;
-        justify-content: space-between;
-    }
     
     .play_area {
+        padding: 0px 0px;
+        justify-content: space-between;
         flex-direction: column-reverse;
         height: auto !important;
         align-items: center;
+        overflow: hidden;
     }
 
     .bg_setup {
@@ -912,10 +911,15 @@ h4.intro_title {
     }
 
     .footer_condition span a {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .copyright_area p {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .game_title_info h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
     }
 }
