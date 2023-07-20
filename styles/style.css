@@ -676,6 +676,16 @@ h4.intro_title {
         margin-left: 180px;
     }
 
+    .play_instantly img.cat_img {
+        width: 160px;
+        margin-top: -110px;
+        margin-left: 20px;
+    }
+
+    .play_instantly img.main_img {
+        float: right;
+    }
+
     .play_game_online_content h2 {
         width: 100%;
         font-size: 35px;
@@ -859,6 +869,16 @@ h4.intro_title {
         width: 150px;
         margin-top: -120px;
         margin-left: 60%;
+    }
+
+    .play_instantly img.cat_img {
+        width: 150px;
+        margin-top: -110px;
+        margin-left: -20px;
+    }
+
+    .play_instantly img.main_img {
+        margin-left: 30px;
     }
 
 
