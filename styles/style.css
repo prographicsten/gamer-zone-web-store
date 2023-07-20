@@ -790,17 +790,23 @@ h3.changeable_heading span {
     }
 
     .social_item a i {
-        width: 50px;
-        font-size: 35px;
+        width: 40px;
+        font-size: 30px;
     }
 
     .footer_condition {
         display: grid;
-        gap: 15px;
+        gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 25px;
     }
 
     .copyright_area p {
         font-size: 12px;
+    }
+
+    .footer_condition span a {
+        font-size: 13px;
     }
 
 
